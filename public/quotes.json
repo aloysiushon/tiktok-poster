@@ -1,0 +1,753 @@
+[
+  {
+    "title": "Whack First, Scared Later #1",
+    "quote": "Don’t scared, just whack!",
+    "description": "For when you need to present in front of the whole class."
+  },
+  {
+    "title": "Blur but Steady #2",
+    "quote": "Even if you blur like sotong, just keep moving.",
+    "description": "For when you’re confused, but you know you have to keep going."
+  },
+  {
+    "title": "Jiayou #3",
+    "quote": "When things get tough, just jiayou!",
+    "description": "A simple push for when you need that extra energy."
+  },
+  {
+    "title": "Lepak but Aim High #4",
+    "quote": "Can lepak, but still aim high.",
+    "description": "For when you’re chilling, but still want to reach your goals."
+  },
+  {
+    "title": "Huat Ah! #5",
+    "quote": "Huat ah! Go big or go home.",
+    "description": "For those moments when you need a lucky boost."
+  },
+  {
+    "title": "Steady Pom Pi Pi #6",
+    "quote": "Stay steady like a rock, no matter what.",
+    "description": "For when you need to stay calm and collected."
+  },
+  {
+    "title": "Paiseh No More #7",
+    "quote": "Don’t paiseh, just go for it!",
+    "description": "For when you need a little confidence boost."
+  },
+  {
+    "title": "Can One Lah #8",
+    "quote": "No matter how hard, can one lah.",
+    "description": "For those days when you just need to believe in yourself."
+  },
+  {
+    "title": "Don’t Play Play #9",
+    "quote": "When it’s time to focus, don’t play play.",
+    "description": "For those serious study sessions."
+  },
+  {
+    "title": "Makan Motivation #10",
+    "quote": "Like makan, life is best enjoyed with effort, don’t take shortcuts.",
+    "description": "A reminder that good things come from hard work."
+  },
+  {
+    "title": "Huat No Matter What #11",
+    "quote": "When life gives you challenges, you huat it and keep going!",
+    "description": "For when you feel challenged, but you know it’s just part of the journey."
+  },
+  {
+    "title": "Chiong Ah! #12",
+    "quote": "Chiong all the way, don’t stop until you reach the top!",
+    "description": "For the energy to keep pushing forward."
+  },
+  {
+    "title": "No Problem One #13",
+    "quote": "Everything also can, no problem one!",
+    "description": "For those moments when you need to assure yourself."
+  },
+  {
+    "title": "Kiasu Power #14",
+    "quote": "Be kiasu in your dreams, don’t let anyone overtake you!",
+    "description": "For when you want to push yourself to the top."
+  },
+  {
+    "title": "Paiseh but Still Can #15",
+    "quote": "Even if paiseh, must try one lah!",
+    "description": "For when you’re nervous but still want to give it a shot."
+  },
+  {
+    "title": "Kekong #16",
+    "quote": "If you kekong your dreams, it will come true!",
+    "description": "For the belief that persistence will lead to success."
+  },
+  {
+    "title": "Loh Ba Buay #17",
+    "quote": "Don’t give up! Loh ba buay until you succeed.",
+    "description": "Push through challenges for victory."
+  },
+  {
+    "title": "Huat Jialat #18",
+    "quote": "Don’t settle. Huat jialat until you make it!",
+    "description": "Keep striving for more, never settle for less."
+  },
+  {
+    "title": "Never Say Die #19",
+    "quote": "Never say die, keep fighting like a warrior.",
+    "description": "For when you need to summon your inner fighter."
+  },
+  {
+    "title": "Limpeh Strong #20",
+    "quote": "Limpeh strong, can handle anything!",
+    "description": "For those moments when you need to remind yourself of your own strength."
+  },
+  {
+    "title": "Jialat but Can One #21",
+    "quote": "Even if jialat, still can one!",
+    "description": "For when things look tough, but you know you can handle it."
+  },
+  {
+    "title": "Keep Gong Siao #22",
+    "quote": "Keep going, even if people gong siao you.",
+    "description": "For when you need to ignore the noise and focus."
+  },
+  {
+    "title": "Chiong Sua #23",
+    "quote": "Chiong sua, overcome every mountain!",
+    "description": "For those who take on every challenge head on."
+  },
+  {
+    "title": "Lagi Best #24",
+    "quote": "Make today lagi best, tomorrow even better.",
+    "description": "For when you want each day to outshine the last."
+  },
+  {
+    "title": "Heng or Sway #25",
+    "quote": "Heng or sway, still must try your best!",
+    "description": "For when you don’t know the outcome but must give your all."
+  },
+  {
+    "title": "Chop Chop #26",
+    "quote": "Don’t waste time, chop chop go and do it!",
+    "description": "For when you need to get things done quickly."
+  },
+  {
+    "title": "Better than Nothing #27",
+    "quote": "Better than nothing, just try your best.",
+    "description": "For when you’re unsure, but giving your best is enough."
+  },
+  {
+    "title": "Chill but Work Hard #28",
+    "quote": "Can chill, but must also work hard, okay?",
+    "description": "For when you need a reminder to balance rest and effort."
+  },
+  {
+    "title": "Don’t Give Up, Don’t Give In #29",
+    "quote": "Never give up, never give in, fight till the end!",
+    "description": "For when you need the energy to push through until the finish."
+  },
+  {
+    "title": "Always Be Steady #30",
+    "quote": "Be steady steady, and good things will come.",
+    "description": "For when you need to trust that being steady leads to success."
+  },
+  {
+    "title": "Try Lah, What’s the Worst #31",
+    "quote": "Just try lah, what’s the worst that can happen?",
+    "description": "For when you need the courage to take a risk."
+  },
+  {
+    "title": "Get Over It #32",
+    "quote": "Don’t dwell on it, get over it and move on.",
+    "description": "For when you need to stop overthinking and keep going."
+  },
+  {
+    "title": "If Not Now, When? #33",
+    "quote": "If not now, when? Time waits for no one.",
+    "description": "For when you need a push to act right now."
+  },
+  {
+    "title": "Strive for Success #34",
+    "quote": "Strive for success, don’t let anything stop you.",
+    "description": "For when you need to push yourself further towards your goals."
+  },
+  {
+    "title": "Go Big or Go Home #35",
+    "quote": "Go big or go home. No point half-hearted.",
+    "description": "For when you need to give everything you’ve got."
+  },
+  {
+    "title": "Only Forward #36",
+    "quote": "No looking back, only forward!",
+    "description": "For when you need to stay focused on your future."
+  },
+  {
+    "title": "Work Smart, Not Hard #37",
+    "quote": "Work smart, not hard, okay? Efficiency is key!",
+    "description": "For when you need to find the best approach to a task."
+  },
+  {
+    "title": "Don’t Let Anything Hold You Back #38",
+    "quote": "Don’t let anything hold you back, go all out!",
+    "description": "For when you need to overcome obstacles and keep moving forward."
+  },
+  {
+    "title": "Failure is Not the End #39",
+    "quote": "Failure is not the end, it’s just a learning curve.",
+    "description": "For when you need to embrace failure as a stepping stone."
+  },
+  {
+    "title": "Tough Times Never Last #40",
+    "quote": "Tough times never last, but tough people do.",
+    "description": "For when you need to remind yourself of your resilience."
+  },
+  {
+    "title": "Chiong Until You Achieve #41",
+    "quote": "Chiong until you achieve your goals, never stop.",
+    "description": "For when you need that extra push to chase your dreams."
+  },
+  {
+    "title": "Good Things Come to Those Who Hustle #42",
+    "quote": "Good things come to those who hustle, don’t wait around.",
+    "description": "For when you need to get off your feet and start working."
+  },
+  {
+    "title": "See How First #43",
+    "quote": "See how first, if you don’t try, then you won’t know!",
+    "description": "For when you’re unsure but need to take that first step."
+  },
+  {
+    "title": "Small Wins, Big Dreams #44",
+    "quote": "Small wins add up, big dreams one day will come true.",
+    "description": "For when you need to stay patient and trust that your small steps will lead to big results."
+  },
+  {
+    "title": "Jia You and Never Stop #45",
+    "quote": "Jia you lor, just keep going and never stop!",
+    "description": "For when you need to keep the momentum going, even when you’re tired."
+  },
+  {
+    "title": "Don’t Liddat Be Negative #46",
+    "quote": "Don’t lidat be negative, always think positive one!",
+    "description": "For when you need to stay positive and optimistic about the future."
+  },
+  {
+    "title": "Go Go Go! #47",
+    "quote": "Go go go, never look back!",
+    "description": "For when you need to go full speed ahead and leave doubt behind."
+  },
+  {
+    "title": "Chiong All The Way #48",
+    "quote": "Chiong all the way, make it till the end!",
+    "description": "For when you need to put in that extra effort to finish strong."
+  },
+  {
+    "title": "Steady and Fly High #49",
+    "quote": "Steady steady, fly high like an eagle!",
+    "description": "For when you need to stay calm and focused, while aiming for the stars."
+  },
+  {
+    "title": "Suan Le, Try Harder #50",
+    "quote": "Suan le lah, if it’s tough, just try harder!",
+    "description": "For when things get difficult, just keep pushing yourself."
+  },
+  {
+    "title": "Boleh Ah! #51",
+    "quote": "Boleh ah! If others can, you can too!",
+    "description": "For when you need to believe in your own potential."
+  },
+  {
+    "title": "All In One #52",
+    "quote": "Life’s like a pot of laksa – all the ingredients come together in the end.",
+    "description": "For when life seems chaotic but everything will eventually fall into place."
+  },
+  {
+    "title": "Chill Until You Make It #53",
+    "quote": "Don’t stress lah, chill until you make it!",
+    "description": "For when you need to calm your nerves and trust the process."
+  },
+  {
+    "title": "Strong Like Durian #54",
+    "quote": "Be strong like durian – tough on the outside, but sweet on the inside.",
+    "description": "For when you need to show resilience and strength in difficult times."
+  },
+  {
+    "title": "Don’t Stop, Keep Going #55",
+    "quote": "Don’t stop, even if you fall. Get up and keep going!",
+    "description": "For when you face setbacks but know it’s important to keep moving forward."
+  },
+  {
+    "title": "Kopi O Grind #56",
+    "quote": "Grind like a cup of kopi o – strong and unstoppable!",
+    "description": "For when you need to hustle like your favorite drink – intense and constant."
+  },
+  {
+    "title": "Guan Xi #57",
+    "quote": "It’s all about guan xi, but don’t forget to work hard for it.",
+    "description": "For when you need to balance relationships with hard work."
+  },
+  {
+    "title": "Work Hard, Play Hard #58",
+    "quote": "Work hard, play hard – balance is the key!",
+    "description": "For when you need to balance the grind with relaxation."
+  },
+  {
+    "title": "Don’t Wait, Just Do It #59",
+    "quote": "Don’t wait lah, just do it!",
+    "description": "For when you’re unsure and need to take action now."
+  },
+  {
+    "title": "Never Let Go #60",
+    "quote": "Once you’ve got the dream, never let go.",
+    "description": "For when you’ve set your sights on something, and you won’t stop until you achieve it."
+  },
+  {
+    "title": "Power Up #61",
+    "quote": "Time to power up, no holding back!",
+    "description": "For when you need that extra motivation to give your all."
+  },
+  {
+    "title": "Fighting Spirit #62",
+    "quote": "Fight like a warrior, no fear, no retreat.",
+    "description": "For when you need to summon your inner strength and fight on."
+  },
+  {
+    "title": "Like a Boss #63",
+    "quote": "Handle your business like a boss.",
+    "description": "For when you want to take charge of a situation and own it."
+  },
+  {
+    "title": "Stay True #64",
+    "quote": "No matter what, stay true to yourself.",
+    "description": "For when you need to remember your values and integrity."
+  },
+  {
+    "title": "Chill lah, Don’t Worry #65",
+    "quote": "Chill lah, don’t worry so much, it’s all gonna work out.",
+    "description": "For when you need to remind yourself to relax and trust the process."
+  },
+  {
+    "title": "Power of Patience #66",
+    "quote": "Patience is power, sometimes waiting is the hardest part.",
+    "description": "For when you need to wait for your efforts to bear fruit."
+  },
+  {
+    "title": "No Regret #67",
+    "quote": "Make every decision with no regret, just keep moving forward.",
+    "description": "For when you need to be confident in the choices you make."
+  },
+  {
+    "title": "Like Lian #68",
+    "quote": "Like lian, do what you want, but work hard first.",
+    "description": "For when you need to focus on effort before reaping the rewards."
+  },
+  {
+    "title": "Make It Happen #69",
+    "quote": "Don’t just dream, make it happen!",
+    "description": "For when you need to stop talking and start doing."
+  },
+  {
+    "title": "Press On #70",
+    "quote": "Even if the road is tough, press on!",
+    "description": "For when you’re going through hard times but need to keep going."
+  },
+  {
+    "title": "No One Can Stop You #71",
+    "quote": "When you’re focused, no one can stop you.",
+    "description": "For when you need to remind yourself that focus is your superpower."
+  },
+  {
+    "title": "Be the Change #72",
+    "quote": "Be the change you want to see in the world.",
+    "description": "For when you feel the need to make a difference."
+  },
+  {
+    "title": "One Step at a Time #73",
+    "quote": "Take one step at a time, but never stop.",
+    "description": "For when you need to move forward, even in small steps."
+  },
+  {
+    "title": "Make the Impossible Possible #74",
+    "quote": "The impossible is possible if you try hard enough.",
+    "description": "For when you need to push beyond your limits."
+  },
+  {
+    "title": "Be Fearless #75",
+    "quote": "Fearless people win, be fearless today.",
+    "description": "For when you need the courage to take a bold step."
+  },
+  {
+    "title": "Level Up #76",
+    "quote": "It’s time to level up, aim higher than you ever did before.",
+    "description": "For when you’re ready to take your goals to the next level."
+  },
+  {
+    "title": "Go Beyond Limits #77",
+    "quote": "Go beyond your limits, because that’s where the magic happens.",
+    "description": "For when you need to challenge your own boundaries."
+  },
+  {
+    "title": "Rise Above #78",
+    "quote": "Rise above the storm, and you’ll find the sunshine.",
+    "description": "For when you’re facing tough situations but need to stay optimistic."
+  },
+  {
+    "title": "Believe You Can #79",
+    "quote": "Believe you can, and you’re halfway there.",
+    "description": "For when you need to trust your own potential."
+  },
+  {
+    "title": "Success Awaits #80",
+    "quote": "Success is not far; it’s waiting for you to grab it.",
+    "description": "For when you need to stay motivated to reach your success."
+  },
+  {
+    "title": "Just Do It #81",
+    "quote": "Just do it, no thinking, just do it.",
+    "description": "For when you need to stop procrastinating and take action."
+  },
+  {
+    "title": "Push Through #82",
+    "quote": "Push through the tough days, because better days are coming.",
+    "description": "For when you need to keep going through challenges."
+  },
+  {
+    "title": "Confidence is Key #83",
+    "quote": "Confidence is key, trust your instincts.",
+    "description": "For when you need to stay sure of yourself in any situation."
+  },
+  {
+    "title": "Stronger Than Yesterday #84",
+    "quote": "Be stronger than you were yesterday, every single day.",
+    "description": "For when you need to strive for constant self-improvement."
+  },
+  {
+    "title": "No Excuses #85",
+    "quote": "No excuses, just results!",
+    "description": "For when you need to stop making excuses and focus on your goals."
+  },
+  {
+    "title": "Rise and Shine #86",
+    "quote": "Rise and shine, the world is waiting for you.",
+    "description": "For when you need a morning boost to start your day with energy."
+  },
+  {
+    "title": "Embrace the Challenge #87",
+    "quote": "Embrace the challenge, that’s where the growth is.",
+    "description": "For when you need to face difficulties as opportunities to grow."
+  },
+  {
+    "title": "Chase Your Dreams #88",
+    "quote": "Chase your dreams, they won’t chase you back.",
+    "description": "For when you need to take action towards what you want."
+  },
+  {
+    "title": "Dream Big #89",
+    "quote": "Dream big, because small dreams don’t motivate you.",
+    "description": "For when you need to aim high and challenge yourself."
+  },
+  {
+    "title": "Work Like a Boss #90",
+    "quote": "Work hard, but work like a boss!",
+    "description": "For when you need to approach work with confidence and control."
+  },
+  {
+    "title": "Turn Your Dreams into Reality #91",
+    "quote": "Your dreams are valid, turn them into reality.",
+    "description": "For when you need the encouragement to follow your passion."
+  },
+  {
+    "title": "Believe in Yourself #92",
+    "quote": "Believe in yourself, and the world will believe in you.",
+    "description": "For when you need the reminder that your belief in yourself is powerful."
+  },
+  {
+    "title": "Don’t Look Back #93",
+    "quote": "Don’t look back, you’re not going that way.",
+    "description": "For when you need to focus on the future, not the past."
+  },
+  {
+    "title": "Bigger Dreams, Bigger Efforts #94",
+    "quote": "Big dreams require big efforts, so don’t hold back.",
+    "description": "For when you need to remind yourself to push harder for your dreams."
+  },
+  {
+    "title": "Rise Like A Champion #95",
+    "quote": "Rise like a champion, with pride in every step.",
+    "description": "For when you need to feel like a winner, even before you reach the top."
+  },
+  {
+    "title": "Never Settle #96",
+    "quote": "Never settle for less than you deserve, you’re worth more.",
+    "description": "For when you need to raise your standards and aim higher."
+  },
+  {
+    "title": "Stay Hungry #97",
+    "quote": "Stay hungry for success, but humble in your achievements.",
+    "description": "For when you need to stay motivated and grounded."
+  },
+  {
+    "title": "Make Today Count #98",
+    "quote": "Make today count, because it won’t come back.",
+    "description": "For when you need to live with intention and purpose."
+  },
+  {
+    "title": "Strive for Excellence #99",
+    "quote": "Strive for excellence, not perfection.",
+    "description": "For when you need to focus on doing your best, not being perfect."
+  },
+  {
+    "title": "Tough Times Don’t Last #100",
+    "quote": "Tough times don’t last, but tough people do.",
+    "description": "For when you need to remind yourself of your strength and resilience."
+  },
+  {
+    "title": "Every Step Counts #101",
+    "quote": "Every step counts, no matter how small.",
+    "description": "For when you need to remember that progress, no matter how tiny, is still progress."
+  },
+  {
+    "title": "Be Like The Banyan Tree #102",
+    "quote": "Stand tall like the banyan tree, strong and rooted.",
+    "description": "For when you need to stand firm in your beliefs and decisions."
+  },
+  {
+    "title": "Chiong Ah #103",
+    "quote": "Chiong ah! No stopping, just go all the way!",
+    "description": "For when you need to give your all and keep pushing forward."
+  },
+  {
+    "title": "Grit & Grind #104",
+    "quote": "It’s all about the grit and grind, no shortcuts.",
+    "description": "For when you need to remind yourself that success comes from hard work."
+  },
+  {
+    "title": "Good Things Take Time #105",
+    "quote": "Good things take time, no rush.",
+    "description": "For when you need to practice patience and trust the process."
+  },
+  {
+    "title": "Keep Calm & Move Forward #106",
+    "quote": "Keep calm and move forward, the rest will follow.",
+    "description": "For when you need to stay composed and take things one step at a time."
+  },
+  {
+    "title": "No Rain, No Flowers #107",
+    "quote": "No rain, no flowers – embrace the struggle for growth.",
+    "description": "For when you need to remind yourself that challenges lead to growth."
+  },
+  {
+    "title": "You Do You #108",
+    "quote": "You do you, because you are the best version of yourself.",
+    "description": "For when you need to embrace your uniqueness and focus on being your best."
+  },
+  {
+    "title": "Don’t Fear Failure #109",
+    "quote": "Don’t fear failure, it’s just another step to success.",
+    "description": "For when you need to remind yourself that failure is part of the journey."
+  },
+  {
+    "title": "One Day At A Time #110",
+    "quote": "One day at a time, don’t rush the journey.",
+    "description": "For when you need to take things slow and steady."
+  },
+  {
+    "title": "Up and Up #111",
+    "quote": "Climb up and up, no looking back.",
+    "description": "For when you’re working hard and need to keep your eyes on your goal."
+  },
+  {
+    "title": "Catch Your Dream #112",
+    "quote": "Catch your dream like a butterfly – with patience and care.",
+    "description": "For when you need to pursue your dreams thoughtfully and persistently."
+  },
+  {
+    "title": "Learn & Grow #113",
+    "quote": "Learn, grow, and repeat.",
+    "description": "For when you’re focused on improving yourself every day."
+  },
+  {
+    "title": "Chase The Light #114",
+    "quote": "Chase the light, even when the world feels dark.",
+    "description": "For when you need to stay optimistic in the face of adversity."
+  },
+  {
+    "title": "Don’t Wait For Luck #115",
+    "quote": "Don’t wait for luck, create your own opportunities.",
+    "description": "For when you need to take action to create your own success."
+  },
+  {
+    "title": "Huat Ah! #116",
+    "quote": "Huat ah! Prosperity is just around the corner.",
+    "description": "For when you’re feeling optimistic about your future success."
+  },
+  {
+    "title": "The Journey Is The Reward #117",
+    "quote": "The journey is the reward, enjoy every step of it.",
+    "description": "For when you need to focus on the process, not just the destination."
+  },
+  {
+    "title": "Work Hard, Be Proud #118",
+    "quote": "Work hard and be proud of what you’ve accomplished.",
+    "description": "For when you need to celebrate the effort, not just the outcome."
+  },
+  {
+    "title": "Hustle & Flow #119",
+    "quote": "Hustle hard and let the flow come naturally.",
+    "description": "For when you need to put in the work while letting things fall into place."
+  },
+  {
+    "title": "Stay Cool #120",
+    "quote": "Stay cool under pressure, like an ice kacang on a hot day.",
+    "description": "For when you need to stay calm in stressful situations."
+  },
+  {
+    "title": "Every Challenge Is A Lesson #121",
+    "quote": "Every challenge is a lesson waiting to be learned.",
+    "description": "For when you need to turn obstacles into opportunities for growth."
+  },
+  {
+    "title": "Shine Bright #122",
+    "quote": "Shine bright, even on the darkest days.",
+    "description": "For when you need to remind yourself to stand out and stay confident."
+  },
+  {
+    "title": "Take The Leap #123",
+    "quote": "Take the leap, even when you don’t know what’s ahead.",
+    "description": "For when you need the courage to step into the unknown."
+  },
+  {
+    "title": "Rise & Shine #124",
+    "quote": "Rise and shine, today is your day.",
+    "description": "For when you need to start the day with a positive mindset."
+  },
+  {
+    "title": "Dream Big, Aim High #125",
+    "quote": "Dream big, aim high, don’t settle for less.",
+    "description": "For when you need to keep your aspirations high and your actions bold."
+  },
+  {
+    "title": "Stronger Together #126",
+    "quote": "We are stronger together, always remember that.",
+    "description": "For when you need to collaborate and draw strength from teamwork."
+  },
+  {
+    "title": "Hard Work Pays Off #127",
+    "quote": "Hard work pays off, but never forget to enjoy the journey.",
+    "description": "For when you’re putting in the effort and need to stay patient."
+  },
+  {
+    "title": "Don’t Give Up #128",
+    "quote": "Don’t give up, because you’re closer than you think.",
+    "description": "For when you feel like quitting but need a little push to keep going."
+  },
+  {
+    "title": "Be The Change #129",
+    "quote": "Be the change, because no one else will do it for you.",
+    "description": "For when you need to take initiative and lead by example."
+  },
+  {
+    "title": "Keep The Faith #130",
+    "quote": "Keep the faith, things will turn around.",
+    "description": "For when you need to trust that everything will work out."
+  },
+  {
+    "title": "Make Your Own Path #131",
+    "quote": "Make your own path, don’t just follow the crowd.",
+    "description": "For when you need to be bold and create your own way."
+  },
+  {
+    "title": "Fall, But Rise Again #132",
+    "quote": "Fall seven times, but rise eight.",
+    "description": "For when you need to remind yourself that setbacks are temporary."
+  },
+  {
+    "title": "Focus, Focus, Focus #133",
+    "quote": "Focus, focus, focus – success is all about laser sharp concentration.",
+    "description": "For when you need to block distractions and stay on track."
+  },
+  {
+    "title": "No Pain, No Gain #134",
+    "quote": "No pain, no gain – you gotta earn it.",
+    "description": "For when you need to push through tough times for long-term success."
+  },
+  {
+    "title": "Be Proud #135",
+    "quote": "Be proud of how far you’ve come, even if you’re not where you want to be yet.",
+    "description": "For when you need to take pride in the progress you’ve made."
+  },
+  {
+    "title": "Never Stop Growing #136",
+    "quote": "Never stop growing, always be learning.",
+    "description": "For when you need to remind yourself that growth is a lifelong journey."
+  },
+  {
+    "title": "Do It For Yourself #137",
+    "quote": "Do it for yourself, because you owe it to you.",
+    "description": "For when you need to focus on your personal goals and growth."
+  },
+  {
+    "title": "Hustle With Purpose #138",
+    "quote": "Hustle with purpose, your efforts will pay off.",
+    "description": "For when you need to stay focused on your larger vision."
+  },
+  {
+    "title": "Rise Above The Noise #139",
+    "quote": "Rise above the noise and stay focused on your goals.",
+    "description": "For when you need to block out distractions and stay on track."
+  },
+  {
+    "title": "Don’t Just Dream, Do #140",
+    "quote": "Don’t just dream, do it!",
+    "description": "For when you need to turn your dreams into action."
+  },
+  {
+    "title": "Small Wins Matter #141",
+    "quote": "Celebrate the small wins – they’re the stepping stones to bigger ones.",
+    "description": "For when you need to recognize and appreciate the small victories along the way."
+  },
+  {
+    "title": "Keep Going, Keep Growing #142",
+    "quote": "Keep going, keep growing, the best is yet to come.",
+    "description": "For when you need to stay persistent and hopeful."
+  },
+  {
+    "title": "Be the Best Version of You #143",
+    "quote": "Be the best version of you – it’s the only one you can control.",
+    "description": "For when you need to focus on becoming your best self."
+  },
+  {
+    "title": "Don’t Stop Until You’re Proud #144",
+    "quote": "Don’t stop until you’re proud.",
+    "description": "For when you need to push through until you’ve accomplished your goals."
+  },
+  {
+    "title": "Keep Your Eyes on the Prize #145",
+    "quote": "Keep your eyes on the prize, don’t get distracted.",
+    "description": "For when you need to stay focused on your end goal."
+  },
+  {
+    "title": "Stay Humble #146",
+    "quote": "Stay humble, but never underestimate your potential.",
+    "description": "For when you need to stay grounded but recognize your own capabilities."
+  },
+  {
+    "title": "You’re Stronger Than You Think #147",
+    "quote": "You’re stronger than you think, keep pushing.",
+    "description": "For when you need to remind yourself of your strength during hard times."
+  },
+  {
+    "title": "Embrace Every Challenge #148",
+    "quote": "Embrace every challenge, it’s part of the journey.",
+    "description": "For when you need to see challenges as opportunities for growth."
+  },
+  {
+    "title": "Be Unstoppable #149",
+    "quote": "Be unstoppable – no one can hold you back if you don’t let them.",
+    "description": "For when you need to push through and not let anything stop you."
+  },
+  {
+    "title": "Create Your Own Luck #150",
+    "quote": "Create your own luck with hard work and determination.",
+    "description": "For when you need to take control of your future and work for what you want."
+  }
+]
+
