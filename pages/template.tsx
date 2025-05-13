@@ -1,69 +1,42 @@
-import { useEffect, useState } from "react";
+// import { useEffect } from "react";
+import { useRouter } from "next/router";
 import styles from "../styles/Template.module.css";
 
-interface Quote {
-  title: string;
-  quote: string;
-  description: string;
-  background: string;
-  music: string;
-}
-
 const Template = () => {
-  const [quote, setQuote] = useState<Quote | null>(null);
+  const router = useRouter();
+  const { title, quote, description, background, music } = router.query;
 
-  useEffect(() => {
-    // Extract query parameters from the URL
-    const params = new URLSearchParams(window.location.search);
-    const title = params.get("title") || "";
-    const quoteText = params.get("quote") || "";
-    const description = params.get("description") || "";
-    const background = params.get("background") || "";
-    const music = params.get("music") || "";
-
-    setQuote({
-      title,
-      quote: quoteText,
-      description,
-      background,
-      music,
-    });
-  }, []);
-
-  // Text animation
-  useEffect(() => {
-    if (quote) {
-      const quoteText = document.getElementById("quoteText");
-      if (quoteText) {
-        const words = quote.quote.split(" ");
-        quoteText.innerHTML = words
-          .map(
-            (word, index) =>
-              `<span class="${styles.animatedText}" style="animation-delay: ${
-                index * 0.5
-              }s;">${word} </span>`
-          )
-          .join(" ");
-      }
-    }
-  }, [quote]);
-
-  if (!quote) return null;
+  // useEffect(() => {
+  //   const quoteText = document.getElementById("quoteText");
+  //   if (quoteText && typeof quote === "string") {
+  //     const words = quote.split(" ");
+  //     quoteText.innerHTML = words
+  //       .map(
+  //         (word, index) =>
+  //           `<span class="${styles.animatedText}" style="animation-delay: ${
+  //             (index / words.length) * 8
+  //           }s;">${word} </span>`
+  //       )
+  //       .join(" ");
+  //   }
+  // }, [quote]);
 
   return (
     <div
       className={styles.container}
       style={{
-        backgroundImage: `url(/backgrounds/${quote.background})`,
+        backgroundImage: `url(/backgrounds/${background})`,
       }}
     >
       <div className={styles.overlay}></div>
       <div className={styles.content}>
-        <h2 className={styles.title}>{quote.title}</h2>
-        <p id="quoteText" className={styles.text}></p>
-        <p className={styles.description}>{quote.description}</p>
+        <h2 className={styles.title}>{title}</h2>
+        <p id="quoteText" className={styles.text}>
+          {quote}
+        </p>
+        <p className={styles.description}>{description}</p>
         <audio autoPlay loop>
-          <source src={`/music/${quote.music}`} type="audio/mpeg" />
+          <source src={`/music/${music}`} type="audio/mpeg" />
         </audio>
       </div>
     </div>
