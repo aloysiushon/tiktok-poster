@@ -225,3 +225,8 @@ a.secondary {
     transform: translateY(0);
   }
 }
+
+/* .recording-mode .animatedText {
+  animation-duration: 8s;
+  animation-timing-function: linear;
+} */
