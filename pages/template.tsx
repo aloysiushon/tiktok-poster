@@ -6,6 +6,8 @@ const Template = () => {
   const router = useRouter();
   const { title, quote, description, background, music } = router.query;
 
+  const uppercasedQuote = quote ? (quote as string).toUpperCase() : "";
+
   // useEffect(() => {
   //   const quoteText = document.getElementById("quoteText");
   //   if (quoteText && typeof quote === "string") {
@@ -32,7 +34,7 @@ const Template = () => {
       <div className={styles.content}>
         <h2 className={styles.title}>{title}</h2>
         <p id="quoteText" className={styles.text}>
-          {quote}
+          {uppercasedQuote}
         </p>
         <p className={styles.description}>{description}</p>
         <audio autoPlay loop>

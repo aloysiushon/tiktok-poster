@@ -168,14 +168,16 @@ a.secondary {
 } */
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .overlay {
@@ -195,27 +197,33 @@ a.secondary {
 }
 
 .title {
+  display: none;
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 
 .text {
-  font-size: 1.5em;
-  margin-bottom: 20px;
+  /* font-size: 1.5em; */
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* Required for auto centering */
+  margin-bottom: 50px;
 }
 
 .description {
-  font-size: 1.2em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
-.animatedText {
+/* .animatedText {
   display: inline-block;
   opacity: 0;
   animation: fadeIn 1s forwards;
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -224,7 +232,7 @@ a.secondary {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
 /* .recording-mode .animatedText {
   animation-duration: 8s;
