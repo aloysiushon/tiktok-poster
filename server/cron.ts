@@ -5,9 +5,6 @@ import path from "path";
 
 console.log("🔄 Setting up cron jobs...");
 
-// Set timezone for consistency
-const TIMEZONE = "Asia/Singapore";
-
 // Status file path
 const statusFilePath = path.join(process.cwd(), "status.json");
 
@@ -33,7 +30,7 @@ async function updateStatus(
 
 // Generate video at 8:30 AM
 cron.schedule(
-  "30 8 * * *",
+  "30 08 * * *",
   async () => {
     try {
       console.log("🎥 Generating video...");
@@ -49,13 +46,13 @@ cron.schedule(
     }
   },
   {
-    timezone: TIMEZONE,
+    timezone: "Asia/Singapore",
   }
 );
 
 // Post video at 9:00 AM
 cron.schedule(
-  "0 9 * * *",
+  "20 09 * * *",
   async () => {
     try {
       console.log("🚀 Posting video to TikTok...");
@@ -71,7 +68,7 @@ cron.schedule(
     }
   },
   {
-    timezone: TIMEZONE,
+    timezone: "Asia/Singapore",
   }
 );
 
