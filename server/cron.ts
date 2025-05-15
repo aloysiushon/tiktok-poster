@@ -10,7 +10,7 @@ const statusFilePath = path.join(process.cwd(), "status.json");
 
 // Generate video at 8:30 AM
 // cron.schedule("30 8 * * *", async () => {
-cron.schedule("00 1 * * *", async () => {
+cron.schedule("50 23 * * *", async () => {
   try {
     console.log("🎥 Generating video...");
     await axios.get("http://localhost:3000/api/generate");
@@ -31,7 +31,7 @@ cron.schedule("00 1 * * *", async () => {
 
 // Post video at 9:00 AM
 // cron.schedule("0 9 * * *", async () => {
-cron.schedule("05 1 * * *", async () => {
+cron.schedule("59 23 * * *", async () => {
   try {
     console.log("🚀 Posting video to TikTok...");
     await axios.get("http://localhost:3000/api/upload");
