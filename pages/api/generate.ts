@@ -39,7 +39,7 @@ export default async function handler(
 
     const localMacPath =
       "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-    const herokuPath = "/app/.apt/usr/bin/chromium-browser";
+    const herokuPath = "/app/.apt/usr/bin/google-chrome";
 
     function getChromePath() {
       if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
@@ -54,7 +54,14 @@ export default async function handler(
     const browser = await puppeteer.launch({
       headless: true,
       executablePath,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--no-zygote",
+        "--single-process",
+      ],
     });
 
     // const browser = await puppeteer.launch({
@@ -72,14 +79,14 @@ export default async function handler(
     // });
 
     const page = await browser.newPage();
-
-    // Set the URL to your locally hosted template page
-    // const url = `http://localhost:3000/template?title=${encodeURIComponent(
-    // const url = `https://tiktok-auto-poster-70413365ce50.herokuapp.com/template?title=${encodeURIComponent(
     const isLocal = process.env.NODE_ENV !== "production";
     const baseUrl = isLocal
       ? "http://localhost:3000"
       : `https://${process.env.HEROKU_APP_NAME}.herokuapp.com`;
+
+    // Set the URL to your locally hosted template page
+    // const url = `http://localhost:3000/template?title=${encodeURIComponent(
+    // const url = `https://tiktok-auto-poster-70413365ce50.herokuapp.com/template?title=${encodeURIComponent(
     const url = `${baseUrl}/template?title=${encodeURIComponent(
       randomQuote.title
     )}&quote=${encodeURIComponent(
