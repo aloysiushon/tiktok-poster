@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
 import dotenv from "dotenv";
 import path from "path";
 import fs from "fs-extra";
@@ -23,6 +23,9 @@ export default async function handler(
     // Launch Puppeteer
     const browser = await puppeteer.launch({
       headless: false, // Set to false for debugging
+      executablePath:
+        process.env.CHROME_PATH ||
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -101,7 +104,7 @@ export default async function handler(
       });
 
       // Upload the video
-      const videoPath = path.join(process.cwd(), "public", "output.mp4");
+      const videoPath = path.join(process.cwd(), "public", "LaiSeeSee.mp4");
       if (!fs.existsSync(videoPath)) {
         throw new Error(`Video file not found at ${videoPath}`);
       }
@@ -211,7 +214,15 @@ export default async function handler(
       //   }
 
       // Simulate typing the hashtags with selection
-      const hashtags = ["quotes", "singapore", "happy"];
+      const hashtags = [
+        "BuaySaiGiveUp",
+        "sgtiktok",
+        "tiktoksg",
+        "quotes",
+        "motivation",
+        "life",
+        "fyp",
+      ];
       for (const tag of hashtags) {
         // Type the '#' first to trigger the dropdown
         await page.keyboard.type("#");
@@ -246,7 +257,7 @@ export default async function handler(
       console.log("📄 Hashtags entered successfully");
 
       // Delay to ensure the description is saved
-      await new Promise((resolve) => setTimeout(resolve, 10000));
+      await new Promise((resolve) => setTimeout(resolve, 5000));
 
       // Click the post button
       console.log("Posting the video...");

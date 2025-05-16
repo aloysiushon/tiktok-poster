@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
 import ffmpegPath from "ffmpeg-static";
 import ffmpeg from "fluent-ffmpeg";
 
@@ -40,6 +40,9 @@ export default async function handler(
     // Launch Puppeteer to generate quote image
     const browser = await puppeteer.launch({
       headless: true,
+      executablePath:
+        process.env.CHROME_PATH ||
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     const page = await browser.newPage();
@@ -61,13 +64,13 @@ export default async function handler(
     await page.goto(url, { waitUntil: "networkidle0" });
 
     // Generate a screenshot
-    const screenshotPath = path.join(process.cwd(), "public", "output.png");
+    const screenshotPath = path.join(process.cwd(), "public", "LaiSeeSee.png");
     await page.screenshot({ path: screenshotPath });
 
     await browser.close();
 
     // Generate the final video with FFmpeg
-    const outputVideoPath = path.join(process.cwd(), "public", "output.mp4");
+    const outputVideoPath = path.join(process.cwd(), "public", "LaiSeeSee.mp4");
     ffmpeg()
       .input(screenshotPath) // Input the screenshot
       .inputOptions(["-loop 1"]) // Loop the image
