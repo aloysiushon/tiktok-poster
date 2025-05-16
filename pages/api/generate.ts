@@ -48,7 +48,7 @@ export default async function handler(
       throw new Error("No suitable Chrome executable found");
     }
 
-    const executablePath = getChromePath();
+    // const executablePath = getChromePath();
 
     // Launch Puppeteer to generate quote image
     // const browser = await puppeteer.launch({
