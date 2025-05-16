@@ -37,45 +37,50 @@ export default async function handler(
     }
     ffmpeg.setFfmpegPath(ffmpegPath);
 
-    // const localMacPath =
-    //   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-    // const herokuPath = "/app/.apt/usr/bin/chromium-browser";
+    const localMacPath =
+      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+    const herokuPath = "/app/.apt/usr/bin/chromium-browser";
 
-    // function getChromePath() {
-    //   if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
-    //   if (fs.existsSync(localMacPath)) return localMacPath;
-    //   if (fs.existsSync(herokuPath)) return herokuPath;
-    //   throw new Error("No suitable Chrome executable found");
-    // }
+    function getChromePath() {
+      if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
+      if (fs.existsSync(localMacPath)) return localMacPath;
+      if (fs.existsSync(herokuPath)) return herokuPath;
+      throw new Error("No suitable Chrome executable found");
+    }
 
-    // const executablePath = getChromePath();
+    const executablePath = getChromePath();
 
     // Launch Puppeteer to generate quote image
-    // const browser = await puppeteer.launch({
-    //   headless: true,
-    //   executablePath,
-    //   args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    // });
-
     const browser = await puppeteer.launch({
       headless: true,
-      executablePath:
-        process.env.CHROME_PATH || "/app/.apt/usr/bin/google-chrome",
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu",
-        "--no-zygote",
-        "--single-process",
-      ],
+      executablePath,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
+
+    // const browser = await puppeteer.launch({
+    //   headless: true,
+    //   executablePath:
+    //     process.env.CHROME_PATH || "/app/.apt/usr/bin/google-chrome",
+    //   args: [
+    //     "--no-sandbox",
+    //     "--disable-setuid-sandbox",
+    //     "--disable-dev-shm-usage",
+    //     "--disable-gpu",
+    //     "--no-zygote",
+    //     "--single-process",
+    //   ],
+    // });
 
     const page = await browser.newPage();
 
     // Set the URL to your locally hosted template page
     // const url = `http://localhost:3000/template?title=${encodeURIComponent(
-    const url = `https://tiktok-auto-poster-70413365ce50.herokuapp.com/template?title=${encodeURIComponent(
+    // const url = `https://tiktok-auto-poster-70413365ce50.herokuapp.com/template?title=${encodeURIComponent(
+    const isLocal = process.env.NODE_ENV !== "production";
+    const baseUrl = isLocal
+      ? "http://localhost:3000"
+      : `https://${process.env.HEROKU_APP_NAME}.herokuapp.com`;
+    const url = `${baseUrl}/template?title=${encodeURIComponent(
       randomQuote.title
     )}&quote=${encodeURIComponent(
       randomQuote.quote
