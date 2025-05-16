@@ -51,11 +51,26 @@ export default async function handler(
     const executablePath = getChromePath();
 
     // Launch Puppeteer to generate quote image
+    // const browser = await puppeteer.launch({
+    //   headless: true,
+    //   executablePath,
+    //   args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    // });
+
     const browser = await puppeteer.launch({
       headless: true,
-      executablePath,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      executablePath:
+        process.env.CHROME_PATH || "/app/.apt/usr/bin/google-chrome",
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--no-zygote",
+        "--single-process",
+      ],
     });
+
     const page = await browser.newPage();
 
     // Set the URL to your locally hosted template page
