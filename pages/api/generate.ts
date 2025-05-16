@@ -74,7 +74,8 @@ export default async function handler(
     const page = await browser.newPage();
 
     // Set the URL to your locally hosted template page
-    const url = `http://localhost:3000/template?title=${encodeURIComponent(
+    // const url = `http://localhost:3000/template?title=${encodeURIComponent(
+    const url = `https://tiktok-auto-poster-70413365ce50.herokuapp.com/template?title=${encodeURIComponent(
       randomQuote.title
     )}&quote=${encodeURIComponent(
       randomQuote.quote
