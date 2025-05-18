@@ -125,7 +125,6 @@ export default async function handler(
       const fileInput = await page.$(fileInputSelector);
       if (!fileInput) throw new Error("File input not found");
 
-      // Upload the video file
       // Check if the file exists
       if (!fs.existsSync(videoPath)) {
         throw new Error(`❌ Video file not found at ${videoPath}`);
@@ -153,28 +152,8 @@ export default async function handler(
         throw err;
       }
 
-      // Add hashtags (hardcoded for now)
       // Add a short delay to ensure the editor is fully loaded
       await new Promise((resolve) => setTimeout(resolve, 2000));
-
-      //   // Find the contenteditable div
-      //   const editorSelector = 'div[contenteditable="true"]';
-      //   await page.waitForSelector(editorSelector, { timeout: 15000 });
-      //   const editor = await page.$(editorSelector);
-
-      //   if (!editor) throw new Error("Caption editor not found");
-
-      //   // Clear the existing text and insert hashtags
-      //   const hashtags = "#motivation #quotes #singapore #poly";
-      //   await page.evaluate(
-      //     (editor, hashtags) => {
-      //       const event = new InputEvent("input", { bubbles: true });
-      //       editor.textContent = hashtags;
-      //       editor.dispatchEvent(event);
-      //     },
-      //     editor,
-      //     hashtags
-      //   );
 
       const editorSelector = 'div[contenteditable="true"]';
       await page.waitForSelector(editorSelector, { timeout: 15000 });
@@ -185,33 +164,6 @@ export default async function handler(
       await page.click(editorSelector);
       console.log("🖱️ Double-clicked the editor to focus");
       await page.keyboard.type(" - ");
-
-      //   // Clear the existing text
-      //   await page.evaluate(() => {
-      //     const editor = document.querySelector('div[contenteditable="true"]');
-      //     if (editor) {
-      //       editor.textContent = "";
-      //       const event = new InputEvent("input", { bubbles: true });
-      //       editor.dispatchEvent(event);
-      //     }
-      //   });
-      //   console.log("🗑️ Cleared the existing text");
-
-      // Clear the existing text properly
-      //   await page.keyboard.down("Control");
-      //   await page.keyboard.press("A");
-      //   await page.keyboard.up("Control");
-      //   await page.keyboard.press("Backspace");
-
-      //   console.log("🗑️ Cleared the existing text");
-
-      // Simulate typing the hashtags
-      //   const hashtags = " - #motivation  ";
-      //   for (const char of hashtags) {
-      //     await page.keyboard.type(char);
-      //     await new Promise((resolve) => setTimeout(resolve, 50));
-      //     // Small delay to mimic human typing
-      //   }
 
       // Simulate typing the hashtags with selection
       const hashtags = [
@@ -240,10 +192,8 @@ export default async function handler(
         // Confirm the hashtag selection with 'Enter'
         await page.keyboard.press("Enter");
         console.log(`✅ Selected hashtag #${tag}`);
-        await page.keyboard.type(" ");
-
         // Add a space to separate the next hashtag
-        // await page.keyboard.type(" ");
+        await page.keyboard.type(" ");
         // await new Promise((resolve) => setTimeout(resolve, 200));
       }
 
